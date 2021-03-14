@@ -77,13 +77,13 @@ This timing corresponds to the description found in a design guide from Daikin w
 |     6         | 00/01/11                      | 3-way valve           | flag8         | 0: status (off/on) <br> 4: status (SHC/tank) |
 |     7         | 3C                            | DHW target temperature| u8 / f8.8?
 |     8         | 00                            | fractional part?      |
-|     9         | 0F                            | ??                    | flag8         | 0: ? <br> 1: ? <br> 2: ? <br> 3: ? |
+|     9         | 0F/18                         | ??                    | flag8         | 0: ? <br> 1: ? <br> 2: ? <br> 3: ? |
 |    10         | 00                            | ?
 |    11         | 14                            |Target room temperature| u8 / f8.8?
 |    12         | 00                            | ?
 |    13         | 1A                            | ?
 |    14         | 00/04                         | Quiet mode            | flag8         | 2: quiet mode (off/on) |
-|    15-20      | 00                            | ?
+|    15-20      | 00/40                         | ?
 |    21         | 00/02/08/09                   | Pump and compressor   | flag8         | 0: compressor (off/on) <br> 3: Circ.pump (off/on) |
 |    22         | 00/02                         | DHW active            | flag8         | 1: DHW active1 (off/on) <br> 0: mode?? |
 |    23         | XX                            | CRC checksum          | u8
